@@ -1,4 +1,74 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+h1 {
+    color:gray;
+    padding-top: 1em;
+    text-align: left;
+}
 
+#box {
+    font-size: x-large;
+    background-color: white;
+    border-radius: 30px;
+    margin: 1em;
+    width: max-content;
+    padding-right: 2em;
+    padding-left: 1em;
+}
+
+.center {
+    margin: auto;
+}
+
+.inside {
+    text-align: left;
+    line-height: 2em;
+    margin-left: 5em;
+}
+
+label {
+    width: 8.5em;
+    display: inline-block;
+}
+
+button {
+    font-size: x-large;
+    margin-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+p {
+    padding-bottom: 1em;
+}
+
+select {
+    font-size: large;
+}
+
+option {
+    font-size: large;
+}
+
+input {
+    font-size: large;
+}
+
+.range {
+    width: 9em;
+}
+
+#result {
+    margin: 0;
+    display: none;
+    line-height: 1.2em;
+    padding-top: 1em;
+}
+
+.calculation {
+    display: inline;
+    background-color: yellow;
+}
